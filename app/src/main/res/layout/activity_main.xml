@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smotteh.milestone6.MainActivity"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/create_contact_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

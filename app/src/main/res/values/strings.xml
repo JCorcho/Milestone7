@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Milestone5</string>
+
+    <string-array name="Persons">
+        <item>John Doe</item>
+        <item>James Alex</item>
+        <item>Alexander Washington</item>
+        <item>Selena Perez</item>
+    </string-array>
+</resources>
